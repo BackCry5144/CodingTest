@@ -1,5 +1,5 @@
 
-// 백준 2178번: 미로 탐색
+// 백준 2178번: 미로 탐색 (Silver 1)
 import java.util.*;
 import java.io.*;
 

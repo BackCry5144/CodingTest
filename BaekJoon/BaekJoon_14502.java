@@ -1,5 +1,5 @@
 
-// 백준 14502번: 연구소
+// 백준 14502번: 연구소 (Gold 4)
 import java.util.*;
 import java.io.*;
 

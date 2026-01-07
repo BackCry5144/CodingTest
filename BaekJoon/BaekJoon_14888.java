@@ -1,11 +1,10 @@
 
-// 백준 14888번: 연산자 끼워넣기
+// 백준 14888번: 연산자 끼워넣기 (Silver 1)
 import java.util.*;
 import java.io.*;
 
 public class BaekJoon_14888 {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        // 여기에 연산자 끼워넣기 풀이를 작성할 예정입니다.
     }
 }

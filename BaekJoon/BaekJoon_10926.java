@@ -1,3 +1,5 @@
+
+// 백준 10926번: ??! (Bronze 5)
 import java.util.Scanner;
 
 public class BaekJoon_10926 {

@@ -1,5 +1,5 @@
 
-// 백준 15686번: 치킨 배달
+// 백준 15686번: 치킨 배달 (Gold 5)
 import java.util.*;
 import java.io.*;
 

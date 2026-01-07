@@ -1,5 +1,5 @@
 
-// 백준 16234번: 인구 이동
+// 백준 16234번: 인구 이동 (Gold 4)
 import java.util.*;
 import java.io.*;
 

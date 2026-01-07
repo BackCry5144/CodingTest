@@ -1,5 +1,5 @@
 
-// 백준 23288번: 주사위 굴리기 2
+// 백준 23288번: 주사위 굴리기 2 (Gold 3)
 import java.util.*;
 import java.io.*;
 

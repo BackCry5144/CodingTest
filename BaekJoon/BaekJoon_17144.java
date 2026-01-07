@@ -1,5 +1,5 @@
 
-// 백준 17144번: 미세먼지 안녕!
+// 백준 17144번: 미세먼지 안녕! (Gold 4)
 import java.util.*;
 import java.io.*;
 

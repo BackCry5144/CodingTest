@@ -1,5 +1,5 @@
 
-// 백준 13460번: 구슬 탈출 2
+// 백준 13460번: 구슬 탈출 2 (Gold 1)
 import java.util.*;
 import java.io.*;
 

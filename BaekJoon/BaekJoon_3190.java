@@ -1,5 +1,5 @@
 
-// 백준 3190번: 뱀
+// 백준 3190번: 뱀 (Gold 4)
 import java.util.*;
 import java.io.*;
 

@@ -1,5 +1,5 @@
 
-// 백준 19236번: 청소년 상어
+// 백준 19236번: 청소년 상어 (Gold 2)
 import java.util.*;
 import java.io.*;
 

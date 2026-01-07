@@ -1,5 +1,5 @@
 
-// 백준 14503번: 로봇 청소기
+// 백준 14503번: 로봇 청소기 (Gold 5)
 import java.util.*;
 import java.io.*;
 
@@ -14,12 +14,13 @@ public class BaekJoon_14503 {
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
         int[][] room = new int[n][m];
+        int cleanRoomCnt = 0;
 
         // 청소기 위치 저장
         st = new StringTokenizer(br.readLine());
-        int row = Integer.parseInt(st.nextToken()); // Row
-        int col = Integer.parseInt(st.nextToken()); // Column
-        int direction = Integer.parseInt(st.nextToken());
+        int curRow = Integer.parseInt(st.nextToken()); // Row
+        int curCol = Integer.parseInt(st.nextToken()); // Column
+        int curDirection = Integer.parseInt(st.nextToken());
 
         // 방 상태 저장(벽 or 청소 안됨)
         for (int i = 0; i < n; i++) {
@@ -29,27 +30,67 @@ public class BaekJoon_14503 {
             }
         }
 
+        // 4방향 row, Column값
+        int[] dirRow = { -1, 0, 1, 0 };
+        int[] dirCol = { 0, 1, 0, -1 };
+
         // 청소기의 현재 위치를 청소
-        room[row][col] = 2;
+        room[curRow][curCol] = 2;
+        cleanRoomCnt++;
 
         while (true) {
-            // 주변 4칸 탐색
-            int north = room[row - 1][col];
-            int south = room[row + 1][col];
-            int east = room[row][col + 1];
-            int west = room[row][col - 1];
+
+            // 1. 현재 위치가 청소가 안 되어 있으면 청소한다.
+            if (room[curRow][curCol] == 0) {
+                room[curRow][curCol] = 2;
+                cleanRoomCnt++;
+            }
 
             // 4 방향 중 청소가 안된 방이 있는지 검색
-            if (north != 0 || south != 0 || east != 0 || west != 0) {
-                // 이제 회전을 하자.
-                if (direction == 0) {
-                    direction = 3;
+            boolean found = false;
+            for (int i = 0; i < 4; i++) {
+                int nextRow = curRow + dirRow[i];
+                int nextCol = curCol + dirCol[i];
+
+                // 다음 좌표가 마이너스가 아니고, 방크기보다는 작아야함.
+                if (nextRow >= 0 && nextRow < n && nextCol >= 0 && nextCol < m) {
+                    if (room[nextRow][nextCol] == 0) {
+                        found = true;
+                        break;
+                    }
+                }
+            }
+
+            // 청소를 안한 방이 있다!
+            if (found) {
+                // 반시계 방향 90도 회전한 NextRoom 좌표 계산
+                curDirection = (curDirection + 3) % 4; // 90도 회전 방향
+
+                // 현재 위치에서 90도 회전한 방향의 좌표 계산
+                int nextRow = curRow + dirRow[curDirection];
+                int nextCol = curCol + dirCol[curDirection];
+
+                // 정면이 빈칸이면 전진
+                if (nextRow >= 0 && nextRow < n && nextCol >= 0 && nextCol < m
+                        && room[nextRow][nextCol] == 0) {
+                    curRow = nextRow;
+                    curCol = nextCol;
+                }
+            } else {
+                // 후진 방향 좌표 계산
+                int backRow = curRow - dirRow[curDirection];
+                int backCol = curCol - dirCol[curDirection];
+
+                // 후진 방향이 벽이면 종료
+                if (room[backRow][backCol] == 1) {
+                    break;
                 } else {
-                    direction = direction - 1;
+                    curRow = backRow;
+                    curCol = backCol;
                 }
             }
         }
 
-        // BufferedReader를 사용하여 입력을 받는 연습을 시작합니다.
+        System.out.println(cleanRoomCnt);
     }
 }

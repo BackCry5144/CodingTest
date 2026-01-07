@@ -1,5 +1,5 @@
 
-// 백준 14891번: 톱니바퀴
+// 백준 14891번: 톱니바퀴 (Gold 5)
 import java.util.*;
 import java.io.*;
 

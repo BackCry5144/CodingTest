@@ -6,37 +6,37 @@
 
 | 단계 | 기간 | 목표 난이도 | 핵심 유형 | 추천 문제 (백준 번호) |
 | :--- | :--- | :--- | :--- | :--- |
-| **1단계: 기초 다지기** | 1/6 ~ 1/8 | Silver 1 ~ Gold 5 | BFS/DFS, 기본 시뮬레이션 | 2178, 1260, 14503, 14888, 14891 |
-| **2단계: 핵심 훈련** | 1/9 ~ 1/11 | Gold 4 ~ Gold 3 | 복잡한 시뮬레이션, 정렬 | 14502, 16234, 17144, 15686 |
-| **3단계: 골드 상급** | 1/12 ~ 1/14 | Gold 2 ~ Gold 1 | 최적화, 최단경로, 복합 구현 | 19236, 20058, 23288, 13460 |
-| **4단계: 플래 맛보기** | 1/15 ~ 1/16 | Gold 1 ~ Platinum 5 | 기출 변형 및 고난도 시뮬레이션 | 23290, 3190 |
+| **1단계: 기초 다지기** | 1/6 ~ 1/8 | Silver 1 ~ Gold 5 | BFS/DFS, 기본 시뮬레이션 | 2178(S1), 1260(S2), 14503(G5), 14888(S1), 14891(G5) |
+| **2단계: 핵심 훈련** | 1/9 ~ 1/11 | Gold 4 ~ Gold 3 | 복잡한 시뮬레이션, 정렬 | 14502(G4), 16234(G4), 17144(G4), 15686(G5) |
+| **3단계: 골드 상급** | 1/12 ~ 1/14 | Gold 2 ~ Gold 1 | 최적화, 최단경로, 복합 구현 | 19236(G2), 20058(G3), 23288(G3), 13460(G1) |
+| **4단계: 플래 맛보기** | 1/15 ~ 1/16 | Gold 1 ~ Platinum 5 | 기출 변형 및 고난도 시뮬레이션 | 23290(G1), 3190(G4) |
 
 ---
 
 ## 📝 문제 리스트 및 상세
 
 ### 1단계: 감 잡기 (Silver ~ Gold 5)
-- [ ] [2178 - 미로 탐색](https://www.acmicpc.net/problem/2178)
-- [ ] [1260 - DFS와 BFS](https://www.acmicpc.net/problem/1260)
-- [ ] [14503 - 로봇 청소기](https://www.acmicpc.net/problem/14503) (진행 중 🔥)
-- [ ] [14888 - 연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
-- [ ] [14891 - 톱니바퀴](https://www.acmicpc.net/problem/14891)
+- [ ] [2178 - 미로 탐색](https://www.acmicpc.net/problem/2178) (S1)
+- [ ] [1260 - DFS와 BFS](https://www.acmicpc.net/problem/1260) (S2)
+- [x] ⭐ [14503 - 로봇 청소기](https://www.acmicpc.net/problem/14503) (G5) (완료! ✅)
+- [ ] [14888 - 연산자 끼워넣기](https://www.acmicpc.net/problem/14888) (S1)
+- [ ] [14891 - 톱니바퀴](https://www.acmicpc.net/problem/14891) (G5)
 
 ### 2단계: 핵심 훈련 (Gold 4 ~ Gold 3)
-- [ ] [14502 - 연구소](https://www.acmicpc.net/problem/14502)
-- [ ] [16234 - 인구 이동](https://www.acmicpc.net/problem/16234)
-- [ ] [17144 - 미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
-- [ ] [15686 - 치킨 배달](https://www.acmicpc.net/problem/15686)
+- [ ] [14502 - 연구소](https://www.acmicpc.net/problem/14502) (G4)
+- [ ] [16234 - 인구 이동](https://www.acmicpc.net/problem/16234) (G4)
+- [ ] [17144 - 미세먼지 안녕!](https://www.acmicpc.net/problem/17144) (G4)
+- [ ] [15686 - 치킨 배달](https://www.acmicpc.net/problem/15686) (G5)
 
 ### 3단계: 고난도 대비 (Gold 2 ~ Gold 1)
-- [ ] [19236 - 청소년 상어](https://www.acmicpc.net/problem/19236)
-- [ ] [20058 - 마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)
-- [ ] [23288 - 주사위 굴리기 2](https://www.acmicpc.net/problem/23288)
-- [ ] [13460 - 구슬 탈출 2](https://www.acmicpc.net/problem/13460)
+- [ ] [19236 - 청소년 상어](https://www.acmicpc.net/problem/19236) (G2)
+- [ ] [20058 - 마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058) (G3)
+- [ ] [23288 - 주사위 굴리기 2](https://www.acmicpc.net/problem/23288) (G3)
+- [ ] [13460 - 구슬 탈출 2](https://www.acmicpc.net/problem/13460) (G1)
 
 ### 4단계: 마무리 & 플래 맛보기
-- [ ] [23290 - 마법사 상어와 복제](https://www.acmicpc.net/problem/23290)
-- [ ] [3190 - 뱀](https://www.acmicpc.net/problem/3190)
+- [ ] [23290 - 마법사 상어와 복제](https://www.acmicpc.net/problem/23290) (G1)
+- [ ] [3190 - 뱀](https://www.acmicpc.net/problem/3190) (G4)
 
 ---
 

@@ -1,5 +1,5 @@
 
-// 백준 1260번: DFS와 BFS
+// 백준 1260번: DFS와 BFS (Silver 2)
 import java.util.*;
 import java.io.*;
 
