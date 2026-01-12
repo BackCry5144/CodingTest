@@ -1,5 +1,6 @@
 
 // 백준 3190번: 뱀 (Gold 4)
+// 핵심 알고리즘: 구현, 시뮬레이션, 자료구조(Deque)
 import java.util.*;
 import java.io.*;
 

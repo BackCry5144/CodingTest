@@ -1,5 +1,6 @@
 
 // 백준 17144번: 미세먼지 안녕! (Gold 4)
+// 핵심 알고리즘: 구현, 시뮬레이션
 import java.util.*;
 import java.io.*;
 

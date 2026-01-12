@@ -1,5 +1,6 @@
 
 // 백준 20058번: 마법사 상어와 파이어스톰 (Gold 3)
+// 핵심 알고리즘: 구현, 시뮬레이션, BFS
 import java.util.*;
 import java.io.*;
 

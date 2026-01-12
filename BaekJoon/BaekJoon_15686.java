@@ -1,5 +1,6 @@
 
 // 백준 15686번: 치킨 배달 (Gold 5)
+// 핵심 알고리즘: 구현, 브루트포스, 백트래킹
 import java.util.*;
 import java.io.*;
 

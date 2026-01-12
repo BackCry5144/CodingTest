@@ -1,5 +1,6 @@
 
 // 백준 16234번: 인구 이동 (Gold 4)
+// 핵심 알고리즘: BFS, 구현
 import java.util.*;
 import java.io.*;
 

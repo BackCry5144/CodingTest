@@ -38,6 +38,7 @@
 - **DP (Dynamic Programming)**
     - [ ] [1463 - 1로 만들기](https://www.acmicpc.net/problem/1463) (S3)
     - [ ] [2579 - 계단 오르기](https://www.acmicpc.net/problem/2579) (S3)
+    - [ ] [14501 - 퇴사](https://www.acmicpc.net/problem/14501) (S3) - **브루트포스/DP 기초**
 - **투 포인터 (Two Pointers)**
     - [ ] [2470 - 두 용액](https://www.acmicpc.net/problem/2470) (G5)
 
@@ -47,6 +48,7 @@
 - [x] ⭐ [14891 - 톱니바퀴](https://www.acmicpc.net/problem/14891) (G5) (완료! ✅)
 - [ ] [21608 - 상어 초등학교](https://www.acmicpc.net/problem/21608) (G5) - **조건 복잡한 구현**
 - [ ] [15686 - 치킨 배달](https://www.acmicpc.net/problem/15686) (G5)
+- [ ] [14499 - 주사위 굴리기](https://www.acmicpc.net/problem/14499) (G4) - **시뮬레이션 기초**
 
 ### 🟠 4단계: 핵심 응용 (실전 대비)
 - [ ] [14502 - 연구소](https://www.acmicpc.net/problem/14502) (G4)
@@ -60,6 +62,15 @@
 - [ ] [23288 - 주사위 굴리기 2](https://www.acmicpc.net/problem/23288) (G3)
 - [ ] [23290 - 마법사 상어와 복제](https://www.acmicpc.net/problem/23290) (G1)
 - [ ] [13460 - 구슬 탈출 2](https://www.acmicpc.net/problem/13460) (G1)
+
+### 💻 프로그래머스 실전 연습 (기출 유사)
+- [ ] [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) (Lv.2) - **BFS 기초**
+- [ ] [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341) (Lv.2) - **복합 구현**
+- [ ] [자물쇠와 열쇠](https://school.programmers.co.kr/learn/courses/30/lessons/60059) (Lv.3) - **2차원 배열 회전/이동**
+- [ ] [퍼즐 조각 채우기](https://school.programmers.co.kr/learn/courses/30/lessons/84021) (Lv.3) - **BFS + 시뮬레이션**
+- [ ] [보석 쇼핑](https://school.programmers.co.kr/learn/courses/30/lessons/67258) (Lv.3) - **효율성 (투 포인터)**
+
+---
 
 ---
 

@@ -1,5 +1,6 @@
 
 // 백준 23288번: 주사위 굴리기 2 (Gold 3)
+// 핵심 알고리즘: 구현, 시뮬레이션, BFS
 import java.util.*;
 import java.io.*;
 

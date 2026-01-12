@@ -1,5 +1,6 @@
 
 // 백준 23290번: 마법사 상어와 복제 (Gold 1)
+// 핵심 알고리즘: 구현, 시뮬레이션
 import java.util.*;
 import java.io.*;
 

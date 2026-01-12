@@ -1,5 +1,6 @@
 
 // 백준 13460번: 구슬 탈출 2 (Gold 1)
+// 핵심 알고리즘: 구현, BFS
 import java.util.*;
 import java.io.*;
 
