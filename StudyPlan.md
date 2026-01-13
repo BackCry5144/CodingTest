@@ -29,18 +29,18 @@
     - [x] ⭐ [2178 - 미로 탐색](https://www.acmicpc.net/problem/2178) (S1) (완료! ✅)
 - **Shortest Path (다익스트라)**
     - [x] ⭐ [1753 - 최단경로](https://www.acmicpc.net/problem/1753) (G4) (완료! ✅)
-    - [ ] [4485 - 녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485) (G4)
+    - [x] [4485 - 녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485) (G4) (완료! ✅)
 
 ### 🔵 2단계: 필수 알고리즘 II (최적화 및 효율성)
 - **이분 탐색 (Binary Search)**
-    - [ ] [2805 - 나무 자르기](https://www.acmicpc.net/problem/2805) (S2) - **파라메트릭 서치 기초**
-    - [ ] [1654 - 랜선 자르기](https://www.acmicpc.net/problem/1654) (S2)
+    - [x] [2805 - 나무 자르기](https://www.acmicpc.net/problem/2805) (S2) (완료! ✅) - **파라메트릭 서치 기초**
+    - [x] [1654 - 랜선 자르기](https://www.acmicpc.net/problem/1654) (S2) (완료! ✅)
 - **DP (Dynamic Programming)**
-    - [ ] [1463 - 1로 만들기](https://www.acmicpc.net/problem/1463) (S3)
-    - [ ] [2579 - 계단 오르기](https://www.acmicpc.net/problem/2579) (S3)
-    - [ ] [14501 - 퇴사](https://www.acmicpc.net/problem/14501) (S3) - **브루트포스/DP 기초**
+    - [x] [1463 - 1로 만들기](https://www.acmicpc.net/problem/1463) (S3) (완료! ✅)
+    - [x] [2579 - 계단 오르기](https://www.acmicpc.net/problem/2579) (S3) (완료! ✅)
+    - [x] [14501 - 퇴사](https://www.acmicpc.net/problem/14501) (S3) (완료! ✅) - **브루트포스/DP 기초**
 - **투 포인터 (Two Pointers)**
-    - [ ] [2470 - 두 용액](https://www.acmicpc.net/problem/2470) (G5)
+    - [x] [2470 - 두 용액](https://www.acmicpc.net/problem/2470) (G5) (완료! ✅)
 
 ### 🟡 3단계: 기초 시뮬레이션 (구현력 향상)
 - [x] ⭐ [14888 - 연산자 끼워넣기](https://www.acmicpc.net/problem/14888) (S1) (완료! ✅) - **백트래킹**
