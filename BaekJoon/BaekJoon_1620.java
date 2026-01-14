@@ -1,3 +1,5 @@
+
+// 백준 1620번:  나는야 포켓몬 마스터 이다솜 (Silver 4)
 import java.io.*;
 import java.util.*;
 
