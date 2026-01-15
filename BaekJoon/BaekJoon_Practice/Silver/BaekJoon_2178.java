@@ -47,8 +47,8 @@ public class BaekJoon_2178 {
             int newCol = curLocation[1];
 
             if (canMove(newRow, newCol)) {
-                visited[newRow, newCol] = true;
-                queue.offer(new int[] {newRow, newCol})
+                visited[newRow][newCol] = true;
+                queue.offer(new int[] { newRow, newCol });
 
             }
         }
